@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+    transition: 3s;
+    rotate: 0deg;
+    border-radius: 0%;
+    /* filter: brightness(.5); */
+    /* filter: blur(5px); */
+    /* filter: contrast(0%); */
+    /* filter: drop-shadow(16px 16px 20px #000); */
+    /* filter: grayscale(0%); */
+    filter: hue-rotate(500deg);
+    /* filter: invert(75%); */
+    /* filter: opacity(100%); */
+    /* filter: saturate(30%); */
+    /* filter: sepia(0%); */
+
+}
+
+img:hover {
+    width: 650px;
+    height: 650px;
+    cursor: pointer;
+    rotate: 14400deg;
+    border-radius: 50%;
+    /* filter: blur(0px); */
+    /* filter: brightness(1); */
+    /* filter: contrast(10200%); */
+    /* filter: drop-shadow(16px 16px 20px blue); */
+    /* filter: grayscale(100%); */
+    filter: hue-rotate(800deg)  drop-shadow(16px 16px 20px blue) ;
+    /* filter: invert(800%); */
+    /* filter: opacity(%); */
+    /* filter: saturate(800%); */
+    /* filter: sepia(100%) brightness(1.5) saturate(30%); */
+}
